@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Preahvihear&family=Whisper&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="antraste">Linkiu graziu svenciu </h1>
+    
+    <p id="tekstas">Linkiu šiltų ir sausų batų,<br>
+Garuojančių kvapnių arbatų,<br>
+Švelnios ir minkštos kepurės,<br>
+Daug gardumynų ant keptuvės,<br>
+Žiemiškai baltos pūgos<br>
+Ir storos pūkų kaldros,<br>
+Stebuklingos Kalėdų nakties<br>
+Bei pačios geriausios kloties!</p>
+   
+   <button onclick="fonas();">Spausti</button>
+   
+   <script>
+       
+       function fonas(){
+           document.body.style.backgroundImage = 'url(kaledos.jpg)';
+           document.getElementById('antraste').style.fontFamily = 'Preahvihear';
+           document.getElementById('antraste').style.color = 'MediumSlateBlue';
+           document.getElementById('tekstas').style.fontFamily = 'Whisper';
+           document.getElementById('tekstas').style.fontSize = '30px';
+           
+       }
+       
+    </script>
+    
+    
+</body>
+</html>
